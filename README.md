@@ -14,3 +14,8 @@ MLX90393 - Teensy4.0
 (Yellow)      SCL - Pin19
 (Blue)        SDA - Pin18
 
+For Two sensors its runs at 150Hz, I2C as the delay is sequential.
+
+Default I2C address for this board - 0x18 (https://www.adafruit.com/product/4022)
+Connect A0 pin to 3.3V to get a different I2C address (0X19)
+
