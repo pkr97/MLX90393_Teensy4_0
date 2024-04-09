@@ -19,3 +19,5 @@ For Two sensors its runs at 150Hz, I2C as the delay is sequential.
 Default I2C address for this board - 0x18 (https://www.adafruit.com/product/4022)
 Connect A0 pin to 3.3V to get a different I2C address (0X19)
 
+Two_MLX90393_I2C.ino works for 2 MLX90393 in I2C at 150Hz (0x18, ox19)
+basicdemo.ino works for 1 MLX90393 in I2C at 300Hz (0x18)
